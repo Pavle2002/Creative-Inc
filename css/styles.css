@@ -38,14 +38,6 @@ img {
   font-size: .9em;
 }
 
-@media (min-width:60rem) {
-  .title {
-    font-size: 3.2rem;
-
-  }
-}
-
-
 /* buttons */
 
 .button {
@@ -86,12 +78,6 @@ img {
 
 .button-small {
   font-size: .85rem;
-}
-
-@media (min-width: 60rem) {
-  .button {
-    font-size: 1.7rem;
-  }
 }
 
 header {
@@ -158,6 +144,12 @@ nav a:focus::after {
   nav a {
     font-size: 1.2rem;
     font-weight: 700;
+  }
+   .title {
+    font-size: 3.2rem;
+  }
+   .button {
+    font-size: 1.7rem;
   }
 }
 
