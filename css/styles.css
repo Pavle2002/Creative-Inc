@@ -136,7 +136,7 @@ nav a:focus::after {
 
 
 
-@media (min-width:60rem) {
+@media (min-width: 960px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -171,11 +171,10 @@ nav a:focus::after {
   min-height: 70vh;
 }
 
-@media (min-width:60rem) {
+@media (min-width: 960px) {
   .home-hero {
     height: 100vh;
     padding-top: 30vh;
-
   }
 }
 
@@ -210,7 +209,7 @@ nav a:focus::after {
 }
 
 
-@media (min-width: 60rem) {
+@media (min-width: 960px) {
   .home-about {
     position: relative;
   }
@@ -237,7 +236,7 @@ nav a:focus::after {
 
 }
 
-@media (min-width: 110rem) {
+@media (min-width: 1760px) {
     .container-for-home-about {
       width: 40em;
     }
@@ -309,7 +308,7 @@ nav a:focus::after {
 }
 
 
-@media (min-width: 37rem) {
+@media (min-width: 592px) {
 
   .portfolio {
     display: grid;
@@ -361,7 +360,7 @@ nav a:focus::after {
   }
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 1200px) {
   .portfolio {
     margin: 0 auto;
     margin-top: 1em;
@@ -404,7 +403,7 @@ nav a:focus::after {
 }
 
 
-@media (min-width: 45rem) {
+@media (min-width: 720px) {
   .portfolio-footer h1 {
     font-size: 2rem;
   }
@@ -445,7 +444,7 @@ footer {
 
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 960px) {
   footer {
     grid-template-columns: repeat(5,1fr);
     justify-content: space-between;
